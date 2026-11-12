@@ -1,0 +1,7 @@
+# Local tooling: deploy the backend to YOUR Modal account and run the UI.
+# (The heavy GPU dependencies live inside the Modal container images
+# defined in modal_backend.py — nothing heavy is installed locally.)
+modal>=1.0
+gradio>=4.44
+requests>=2.32
+Pillow>=10.0
